@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Jaro:opsz@6..72&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*{
+    font-family: 'titillium web';
+    margin: 10px;
+}
+body {
+    color: #fff;
+    background-color: #c31717;
+}
+.buscar_producto{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    input, select {
+        padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    }
+}
+.lista_productos{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    input, select {
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100px;
+    }
+}
+.agregar_producto{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    input, select {
+        padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    }
+}
+.editar_producto{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    input, select {
+        padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    }
+}
+button{
+    background-color: #fff;
+    color: #c31717;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+}
+a{
+    text-decoration: none;
+    color: #c31717;
+}

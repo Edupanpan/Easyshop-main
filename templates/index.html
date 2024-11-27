@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Easyshop</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header class="titulo">
+        <h1>Bienvenido a Easyshop</h1>
+    </header>
+        
+    <main>
+        <button><a href="{{ url_for('pagina_productos') }}">Ver Productos</a></button>
+        <button><a href="{{ url_for('pagina_trabajadores') }}">Ver Trabajadores</a></button>
+        <button><a href="{{ url_for('pagina_clientes') }}">Ver Clientes</a></button>
+        <button><a href="{{ url_for('pagina_boletas') }}">Ver Boletas</a></button>
+    </main>
+</body>
+</html>
